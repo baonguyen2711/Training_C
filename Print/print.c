@@ -1,5 +1,5 @@
 #include "print.h"
-#include "../isPrime/func.h"
+#include "../IsPrime/func.h"
 
 void ShowPrime(int num)
 {
@@ -58,6 +58,4 @@ void ShowAmount(int num, int prime)
         sum = isAmount(num, 0);
         printf("-- Co tat ca %d so khong phai la so nguyen to trong tong so %d so duoc nhap\n", sum, num);
     }
-
-    printf("%d\n", sum);
 }
